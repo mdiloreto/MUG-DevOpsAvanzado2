@@ -9,11 +9,12 @@
   
 name: WebApp Demo
 on:
-  workflow_dispatch:
+
   push:
     branches:
       - 'main'
       - 'dev'
+  workflow_dispatch:
 
 env:
   IMAGE_NAME_main: mbwebapp-main
